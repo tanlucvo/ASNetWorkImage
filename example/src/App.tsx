@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from 'react';
 
 import { FlashList } from '@shopify/flash-list';
-import { RNTImage } from 'image';
+import { RNTAnimatedImage } from 'image';
 import { SafeAreaView, StyleSheet, Text, TouchableOpacity } from 'react-native';
 import FastImage from 'react-native-fast-image';
 
@@ -18,7 +18,7 @@ export default function App() {
 
   const renderItem = ({ item }) => {
     return (
-      <RNTImage
+      <RNTAnimatedImage
         uri={`https://d1gfjavjl4xkd7.cloudfront.net/images/stupid-pig-1.webp?${item}`}
         style={styles.box}
       />

@@ -6,7 +6,7 @@
 
 @implementation RNTAnimatedImageManager
 
-RCT_EXPORT_MODULE(RNTImage)
+RCT_EXPORT_MODULE(RNTAnimatedImage)
 
 - (UIView *)view {
   AsyncAnimatedImage *view = [[AsyncAnimatedImage alloc] init];
